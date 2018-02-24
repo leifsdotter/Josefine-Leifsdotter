@@ -1,0 +1,102 @@
+
+body{
+	background-color:Lemonchiffon;
+	margin: 15px;
+	padding: 15px;
+	}
+
+h1 	{
+	color:orange;
+	font-family:edwardian script itc;
+	font-size:80px;
+	text-align:center;
+	margin: 1px;
+	padding: 5px;
+	}
+
+h2 	{
+	color:blue;
+	font-family:arial;
+	margin: 1px;
+	padding: 15px;
+	}
+
+		
+h3  {
+	color:green;
+	font-family: arial black;
+	margin: 5px;
+	padding: 15px;
+	}
+
+hr  {
+	border: 3px solid violet;
+	}
+
+div.gallery
+	{
+	float: left;
+  width: 300px;
+	height: 225px;
+  border:dotted orange;
+	}
+
+#EcoFriendly
+	{
+	width:"300"; 
+	height:"225";
+	}
+	
+#Kvinnoansikte
+	{
+	width:"300"; 
+	height:"225";
+	}
+
+#Krämburk
+	{
+	width:"300"; 
+	height:"225";
+	}
+	
+#Krämklick
+	{
+	width:"300"; 
+	height:"225";
+	}
+	
+p.AboutUs
+	{
+	font-family:timesNewRoman; 
+	margin:5px;
+	padding: 15px;
+	}
+
+p.WhatWeDo
+	{
+	font-family:timesNewRoman; 
+	margin:5px;
+	padding: 15px;
+	}
+
+adress.Adress
+	{
+	font-family:calibri;
+  padding: 15px;
+	}	
+	
+p.Organisationsnummer
+	{
+	font-family:verdana;
+	color:orange;
+	margin:15px;
+	text-align:center;
+	}
+	
+a
+	{
+	font-family:Book Antiqua;
+	margin-left: 50px;
+	padding: 0px 10px;
+	text-align:center;
+	}
