@@ -1,0 +1,90 @@
+<!-- 
+Kommentarer:
+Både adressen och länkarna har samma text-formattering. Däremot har de olika färger så jag skulle tolka det som att de har unika text-stilar. 
+De båda underrubrikerna har båda samma text-formattering men har olika bakgrundsfärger vilket gör dem unika. Underrubrikerna och deras underliggande 
+text har samma text-stil, men där har man nog medvetet valt detta för att få det enhetligt och snyggt visuellt. Enligt uppgiftsbeskrivningen hade
+man kanske behövt göra olika formattering för h3 och underliggande p. Border, margin och padding egenskaperna har använts flitigt i hela koden. 
+Jag skulle säga att koden i sin helhet uppfyller de ställda kriterierna för innehåll. 
+
+Så vitt jag kan se uppfyller koden alla de tekniska kraven.
+
+Vad var bra med koden?
+Proffsig hemsida! Koden är snyggt gjord där man återanvänder kod och undviker upprepning. Det finns ett helhetstänk kring hemsidan, det är inte 
+slumpvist valda delar som klumpats ihop. Bra formattering.  
+
+Vad kan förbättras med koden?
+•	I och med att företagets adress  står som kontaktuppgifter och inte enbart som postadress skulle jag gissa på att man kan använda sig av 
+	adress-tagen istället för separata p-taggar, men det är nog en smaksak.  
+•	För mig var det inte helt glasklart vad som avses med row. Hade gärna sett en kommentar dels om det begreppet men även hur man delat upp sidan, 
+	i vilka delar, som man sedan formatterat.
+•	Kanske att man kunde skapat luft mellan olika sektioner för att förtydliga de olika blocken. Annars var det bra med de inskjutna raderna.
+•	Se kommentaren ovan avseende h3 och p.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			ACTIC Hallonbergen
+		</title>
+		<link rel="stylesheet" type="text/css" href="css-kod.css">
+	</head>
+	<body class="body">
+		<div class="row">
+			<img src="logo.jpg" class="logo" />
+			<h1 class="title"> Hallonbergen</h1>
+		</div>	
+			<h6 class="row logo">
+				Vi jobbar för ett friskare samhälle
+			</h6>
+		<div class="row">
+			<img class="myimg" src="pic1.jpg" />
+			<img class="myimg" src="pic2.jpg" />
+			<img class="myimg" src="pic3.jpg" />
+		</div>
+		<div class="row">
+			<div class="content pink">
+				<h3>Om oss</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Donec bibendum aliquam porta. Donec nec condimentum enim. 
+				Morbi nulla massa, maximus eu euismod at, fringilla ac eros. 
+				Cras rutrum convallis sem, eget interdum est consequat eget. 
+				Curabitur ac urna nisl. Aliquam vel tincidunt turpis. Aliquam ipsum 
+				augue, mattis porta tellus a, molestie ornare quam. Mauris ut maximus
+				elit. Nunc at tempus nisi, ac pulvinar justo. Ut eget tempus dui,
+				sit amet luctus libero. Aliquam rhoncus vehicula nisl a dignissim. 
+				Vivamus faucibus purus vitae gravida interdum.</p>
+			</div>	
+			<div class="content blue">
+				<h3>Vårt kundlöfte</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Donec bibendum aliquam porta. Donec nec condimentum enim. 
+				Morbi nulla massa, maximus eu euismod at, fringilla ac eros. 
+				Cras rutrum convallis sem, eget interdum est consequat eget. 
+				Curabitur ac urna nisl. Aliquam vel tincidunt turpis. Aliquam ipsum 
+				augue, mattis porta tellus a, molestie ornare quam. Mauris ut maximus
+				elit. Nunc at tempus nisi, ac pulvinar justo. Ut eget tempus dui,
+				sit amet luctus libero. Aliquam rhoncus vehicula nisl a dignissim. 
+				Vivamus faucibus purus vitae gravida interdum.</p>
+			</div>
+		</div>
+		<div class="row green">
+			<div class="contact">
+				<p class="none_float">Hallonbergsplan 5</p>
+				<p class="none_float">17452, Sundbyberg</p>
+				<p class="none_float">Tel.: 08-466 60 0</p>
+				<ul>
+					<li class="none_float"><a href="https://www.facebook.com/actichallonbergen/">Facebook</a></li>
+					<li class="none_float"><a href="https://www.instagram.com/actichallonbergen/">Instagram</a></li>
+					<li class="none_float"><a href="https://www.youtube.com/user/Acticsverige">Youtube</a></li>
+				</ul>
+			</div>
+			<img class="map" src="map.png" />	
+			<div class="row pink foter">
+				Actic Sverige AB - Org.nummer: 556494-3388
+			</div>
+		</div>
+	</body>
+</html>
