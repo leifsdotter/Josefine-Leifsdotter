@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Inlämning 2</title>
+
+
+
+<script> 
+</script>
+
+
+<style>
+
+<!-- Internal CSS -->
+body {
+  margin: 0;
+}
+
+/* 4 charts that floats next to each other */
+.chart {
+    float:left;
+    padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    clear: both;
+
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="row">
+<div class="chart left">
+
+<h2 style="color:gray;" > Pris vs antal recentioner </h2>
+<div id="myPlot1" style="width:400px; height:400px; float:left;"></div>
+
+<h2 style="color:gray;" > Prisspridning </h2>
+<div id="myPlot2" style="width:400px; height:400px; float:left;"></div>
+
+<h2 style="color:gray;" >Spridning på antalet gäster </h2>
+<div id="myPlot3" style="width:400px; height:400px; float:left;"></div>
+
+<h2 style="color:gray;" > % för andelen typ av rum </h2>
+<div id="myPlot4" style="width:400px; height:400px; float:left;"></div> 
+
+
+
+</body>
+
+<script src="./plotly-latest.min.js"></script>
+<script src="./Inlämning2.js"></script>
+
+</html>
